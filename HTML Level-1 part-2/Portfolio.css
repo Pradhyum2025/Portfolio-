@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: sans-serif;
+   
+}
+
+header{
+    height: 100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,3,135,0.9445028011204482) 19%, rgba(18,88,102,1) 97%);
+}
+header nav {
+    /* border: 2px solid rgb(0, 0, 0); */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 10vh;
+    margin: 0px 100px 0px 50px;
+    
+
+}
+
+header nav span{
+    font-size: 30px;
+    font-weight:700 ;
+    color: rgb(233, 233, 236);
+}
+header nav ul{
+    list-style: none;
+     display: flex;
+     column-gap: 50px;
+}
+header nav ul li{
+    font-size: 18px;
+    font-weight:600 ;
+    color: rgb(233, 233, 236);
+cursor: pointer;
+   
+}
+#hamberg{
+    width: 30px;
+    display: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.block1{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    column-gap: 150px;
+    /* margin-top: 100px; */
+    /* padding: 100px; */
+    height: 120%;
+    padding-top:100px ;
+    padding-bottom: 100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,3,135,0.9445028011204482) 19%, rgba(18,88,102,1) 97%);
+
+}
+.block1 .div1{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width:600px;
+    height: 150%;
+    color: rgb(215, 215, 232);
+    padding: 15px;
+  
+}
+.block1 .div1 p:nth-child(1){
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+.block1 .div1 p:nth-child(2){
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.block1 .div1 button{
+    width:  50%;
+    height: 6vh;
+    margin-top: 5px;
+    border-radius: 20px;
+    background: rgb(106, 48, 230);
+    border: none;
+
+
+}
+.block1 .div1 button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.block1 .div2{
+   
+    /* width:500px ;
+    height: 400px;
+   */
+
+}
+.block1 div img{
+    border-radius: 500px;
+    height: 400px;}
+
+    #about{
+        display: flex;
+        flex-direction: column;
+        gap:100px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        background: rgb(2,0,36);
+       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,3,135,0.9445028011204482) 19%, rgba(18,88,102,1) 97%);
+       height: 180%;
+       padding-bottom: 150px;
+
+        
+    }
+    #about p:nth-child(1){
+        margin:30px 0px 0px 60px;
+        font-size: 45px;
+        font-weight: 700;   
+        color: white;
+        
+
+    }
+.block2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        
+        margin-top: 10px;
+        
+    }
+.about{
+    background: rgb(42,39,40);
+background: linear-gradient(90deg, rgba(42,39,40,0.9809173669467787) 0%, rgba(61,73,128,1) 70%, rgba(30,20,59,1) 91%);     width: 25vw;
+        height: 37vh;
+     width:300px;
+        padding: 40px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: white;
+        /* padding: 20px; */
+        
+
+    }
+    #Experience{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,3,135,0.9445028011204482) 19%, rgba(18,88,102,1) 97%);
+      padding-top: 30px;
+      height: 50vh;
+      margin-top:10px;
+      padding-bottom: 50px;
+
+    }
+    #Experience p{
+        margin-left: 65px;
+        font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+
+
+    }
+    #Experience  .exp11 ul li{
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .exp11{
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,0.9809173669467787) 0%, rgba(12,16,32,1) 70%, rgba(15,14,20,1) 91%);
+        height: 20vh;
+        width:70vw; 
+        margin-left: 65px;
+        padding: 50px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        row-gap: 20px;
+        color: white;
+        /* padding-bottom: 50px; */
+    }
+    .about:hover{
+        transform: translateY(-0.5em);
+
+    }
+    
+    .about h2{
+        font-size: 25px;
+
+    }
+    .about ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 20px;
+
+    }
+    .block3{
+        /* margin-top: 10px; */
+        height: 50vh;
+        color: white;
+        background: rgb(25,88,183);
+        background: linear-gradient(90deg, rgba(25,88,183,1) 100%, rgba(91,105,108,1) 100%, rgba(5,3,135,0.9445028011204482) 100%);
+    
+
+    }
+   .block3 .contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding:50px;
+    
+   }
+
+   .block3 .contact p:nth-child(1){
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+
+   }
+   .block3 .contact p:nth-child(2){
+    font-size: 25px;
+    font-weight: 600;
+
+   }
+   .block3 .contact ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+   .block3 .contact ul li{
+   
+    display: flex;
+    gap: 10px;
+    font-size: medium;
+    font-weight: 500;
+
+    
+   }
+   .block3 .contact ul li a{
+    color:white;
+    text-decoration: none;
+   }
+   .block3 .contact ul li img{
+    width: 35px;
+    height:30px ;
+    mix-blend-mode: lighten;
+} 
+.hover:hover{
+    
+    text-decoration: underline ;
+}
+@media screen and (max-width:800px) {
+    .block1{
+        /* flex-direction: column; */
+        /* align-items: center; */
+        justify-content: center;
+         gap: 50px;
+        width:100%;
+    }
+     header nav ul li{
+        display: none; 
+
+    }
+    #hamberg{
+        display:inline;
+    }
+    header nav {
+        /* border: 2px solid rgb(0, 0, 0); */
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        height: 10vh;
+        margin: 0px 20px 0px 20px;
+}
+#Experience{
+   height: 100%;
+}
+.exp11{
+        height: 100%;
+        width:70vw; 
+        margin-left: 10px;
+
+}
+#Experience  .exp11 ul li{
+    font-size: 20px;
+    font-weight: 600;
+    /* color: white; */
+}
+
+}

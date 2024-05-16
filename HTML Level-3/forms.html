@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in HTML</title>
+</head>
+<body>
+    <form action="/action">
+        <h1>Registration Form</h1>
+        <div>
+            <label for="firstName">Enter Your First Name</label>
+            <input type="text" id="firstName" placeholder="First Name" name="=fname">
+            <label for="LastName">Enter Your last Name</label>
+            <input type="text"  id="LastName" placeholder="Last Name" name="lname">
+        </div>
+        <div>
+            text
+            <input type="range"min="50000"
+            max="500000"
+            step="100" value="=25000">
+            passward
+            <input type="password">
+            email
+            <input type="email">
+            time
+            <input type="time">
+            date
+            <input type="date">
+        </div>
+        
+        <label for="select">Please select gender</label>
+        <select name="gender" id="select">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+        <div>
+            <label for="radio">are you student?</label>
+            <input id="radio" type="radio" name="student">
+        </div>
+        <div>
+            <span>Do you agree to all terms of service?</span>
+            <input type="checkbox" id="agree" placeholder="Yes, I agree" name="agree">
+            <label for="agree">Yes, I agree</label>
+        </div>
+       <button>register</button>
+     
+    </form>
+    
+</body>
+</html>
